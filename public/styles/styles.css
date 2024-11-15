@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+input[type="text"], input[type="password"], input[type="date"] {
+    font-size: 17px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 230px;
+}
+.registerbtn, .clearbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+    height: 50px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+}
+.registerbtn:hover {
+    background-color: #45a049;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+label{
+    margin-bottom: 10px;
+}
